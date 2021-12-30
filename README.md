@@ -6,7 +6,11 @@ The package that contains common classes for the CSE 251 course.
 
 Run in the console
 ```bash
+Mac:
 python3 -m pip install git+https://github.com/byui-cse/cse251-course-files.git
+
+Windows:
+python -m pip install git+https://github.com/byui-cse/cse251-course-files.git
 ```
 (Use `python` or `python3` depending on your environment)
 

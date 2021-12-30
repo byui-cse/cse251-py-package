@@ -33,8 +33,9 @@ Using pip has the following advantages:
 * includes Intellisense instead of showing unknown function
 * able to be updated without modifying other repositories
 
-It pip installs:
+It pip installs the following:
 * matplotlib
 * numpy
 * pillow
-* opencv-python (`import cv2`)
+* requests
+* opencv-python

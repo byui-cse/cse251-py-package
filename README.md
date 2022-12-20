@@ -18,7 +18,6 @@ And to use it
 
 ```python
 from cse251 import *
-set_working_directory(__file__)
 ```
 
 ## Authors

@@ -10,7 +10,7 @@ Mac:
 python3 -m pip install git+https://github.com/byui-cse/cse251-course-files.git
 
 Windows:
-python -m pip install git+https://github.com/byui-cse/cse251-course-files.git
+<full path of python> -m pip install git+https://github.com/byui-cse/cse251-course-files.git
 ```
 (Use `python` or `python3` depending on your environment)
 

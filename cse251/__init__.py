@@ -48,12 +48,15 @@ class Log():
         self._start_time = time.perf_counter()
         self._show_terminal = show_terminal
 
+        if not os.path.exists('logs'):
+   	        os.makedirs('logs')
+
         if filename_log == '':
             d = datetime.now()
             localtime = d.strftime("%m%d-%H%M%S")
             filename_log = f'{localtime}.log'
 
-        self._filename = filename_log
+        self._filename = 'logs/' + filename_log
 
         if linefmt == '':
           linefmt = '%(message)s'

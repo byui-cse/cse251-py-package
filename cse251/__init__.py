@@ -44,7 +44,8 @@ class Log():
                  linefmt='',
                  show_levels=False,
                  show_terminal=False,
-                 include_time=True):
+                 include_time=True,
+                 append_mode=False):
         self._start_time = time.perf_counter()
         self._show_terminal = show_terminal
 
@@ -70,12 +71,17 @@ class Log():
         else:
             date_format = ''
 
+        # Determine the correct log mode
+        mode = 'w'
+        if append_mode:
+            mode = 'a'
+
         # Create and configure logger
         logging.basicConfig(filename=self._filename,
                             # format='%(asctime)s %(levelname)s %(message)s',
                             format=linefmt,
                             datefmt=date_format,
-                            filemode='w')
+                            filemode=mode)
 
         self.logger = logging.getLogger()
 

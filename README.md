@@ -76,7 +76,7 @@ This utility is designed to be easily installable using the Python package manag
 
 ## Authors
 - Luc Comeau
-- Hunter Wilhelm
+- [Hunter Wilhelm](https://github.com/hunterwilhelm)
 - Christopher Keers
 
 ## License

@@ -1,6 +1,6 @@
 # CSE251 Library
 
-The package that contains common classes for the CSE 251 course.
+This package contains common classes and helper methods for the CSE 251 course.
 
 ## Installation Instructions
 

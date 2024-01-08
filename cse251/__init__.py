@@ -12,7 +12,7 @@ import numpy as np
 import json
 
 def clear_output():
-    print("\033c", end="")
+    print("\033c", end="", flush=True)
 
 
 def set_working_directory(file_path):

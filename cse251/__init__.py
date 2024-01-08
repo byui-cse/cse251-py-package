@@ -11,6 +11,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 
+def clear_output():
+    print("\033c", end="")
+
+
 def set_working_directory(file_path):
     """
     Sets the current working directory to the folder specified
